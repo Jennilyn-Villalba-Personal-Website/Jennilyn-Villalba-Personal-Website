@@ -4,40 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div>
-        <h1>A little about myself</h1>
-        <h3>When I'm not coding I have a couple of hobbies I like to do with friends or by myself</h3>
-    </div>
+    <!--NAVBAR SECTION-->
+    <nav class="navbar">
+        <div class="navbar-container"> <!--this will be the navigation bar for the 3 links on the website-->
+            <a href="index.html" id="navbar-logo">Jennilyn Villalba</a>
+            <div class="navbar-toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div> <!--will adjust the webiste to mobile view-->
+            <ul class="navbar-menu"> 
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="about.html" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="portfolio.html" class="navbar-link">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div>
-        <h2>Rock Climbing</h2>
-        <p>
-            I like to go indoor rock climbing or bouldering in other terms. I like to stay active since most of my time I spend around sitting on a computer
-            either learning code or just watching anime or shows. I don't go as often as I like to due to work scheduling but its a good where to have fun 
-            and still be able to get a work out in. Plus its fun when you have friends join in too, as it not only helps motivates one another to push past 
-            our limits but time flies when you're tring to beat your firends in a little climbing competition. 
-        </p> <!--insert some sort of photo here-->
-    </div>
+    <!--ABOUT SECTION-->
+    <div class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h1 class="title-1">A little about myself</h1>
+                <h3 class="titel-2">When I'm not coding I have a couple of hobbies I like to do with friends or by myself</h3>
 
-    <div>
-        <h2>Korean BBQ</h2>
-        <p>
-            Korean BBQ/ KBBQ is always my go to when someone ask where I want to eat. Though some people may not like the aspect of cooking your own food that
-            you pay for. I for myself enjoy that aspect, since for one I love cooking in general so I'm always the one in my friend group cooking whenever we 
-            all go out. Another reason why I like KBBQ so much is because the social setting. Its like having a home cooked meal with all your friends without
-            actually being at home. Also its all you can eat so if I'm gonna pay about $30 to $40 for food might as well get all you can eat.
-        </p> <!--insert some sort of photo here-->
-    </div>
+                <h2 class="rock-climbing">Rock Climbing</h2>
+                <p>
+                    I like to go indoor rock climbing or bouldering in other terms. I like to stay active since most of my time I spend around sitting on a computer
+                    either learning code or just watching anime or shows. I don't go as often as I like to due to work scheduling but its a good where to have fun 
+                    and still be able to get a work out in. Plus its fun when you have friends join in too, as it not only helps motivates one another to push past 
+                    our limits but time flies when you're tring to beat your firends in a little climbing competition. 
+                </p> 
 
-    <div>
-        <h2>3D Modeling/ Animation</h2>
-        <p>
-            Ever since middle school I always wanted to get into the video game industry and create cool video games when I got older, which is why I started learning
-            3D modeling and 3D animation. I am by no means an expert but whenever I free time I like to just creat models or design concept art on an application called
-            "Blender". One day I'd like to incorperate both my knowledge of 3D modeling and coding into a small indie game that I create in the future soon.
-        </p> <!--insert some sort of photo here-->
-    </div>
+                <h2 class="kbbq">Korean BBQ</h2>
+                <p>
+                    Korean BBQ/ KBBQ is always my go to when someone ask where I want to eat. Though some people may not like the aspect of cooking your own food that
+                    you pay for. I for myself enjoy that aspect, since for one I love cooking in general so I'm always the one in my friend group cooking whenever we 
+                    all go out. Another reason why I like KBBQ so much is because the social setting. Its like having a home cooked meal with all your friends without
+                    actually being at home. Also its all you can eat so if I'm gonna pay about $30 to $40 for food might as well get all you can eat.
+                </p>
+
+                <h2 class="3d">3D Modeling/ Animation</h2>
+                <p>
+                    Ever since middle school I always wanted to get into the video game industry and create cool video games when I got older, which is why I started learning
+                    3D modeling and 3D animation. I am by no means an expert but whenever I free time I like to just creat models or design concept art on an application called
+                    "Blender". One day I'd like to incorperate both my knowledge of 3D modeling and coding into a small indie game that I create in the future soon.
+                </p> 
+            </div>
+        </div>
+
+    <script src="index.js"></script>
 </body>
 </html>

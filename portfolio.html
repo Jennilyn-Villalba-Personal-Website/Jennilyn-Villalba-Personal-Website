@@ -4,18 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div>
-        <h1>Small projects that I worked on so far in the Fullstacks Academy Program</h1>
+    <!--NAVBAR SECTION-->
+    <nav class="navbar">
+        <div class="navbar-container"> <!--this will be the navigation bar for the 3 links on the website-->
+            <a href="index.html" id="navbar-logo">Jennilyn Villalba</a>
+            <div class="navbar-toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div> <!--will adjust the webiste to mobile view-->
+            <ul class="navbar-menu"> 
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="about.html" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="portfolio.html" class="navbar-link">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--PORTFOLIO SECTION-->
+    <div class="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolio-content">
+                <h1>Small projects that I worked on so far in the Fullstacks Academy Program</h1>
+
+                <div class="zoo-container">
+                    <h2>Zoo Project</h2>
+                </div>
+                <div class="grocery-container">
+                    <h2>Grocery List Website</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <h2>Zoo project</h2>
-    </div>
-
-    <div>
-        <h2>Grocery List Website</h2>
-    </div>
+    <script src="index.js"></script>
 </body>
 </html>
